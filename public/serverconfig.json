@@ -1,0 +1,27 @@
+{
+    "ApiUrl": "http://172.18.4.60:8888",
+    "InterconApi": "http://127.0.0.1:33333",
+    "VisualizedParams": {
+        "GrouthTrend": {
+            "ShowList": [
+                "视频",
+                "高后果视频",
+                "周界入侵",
+                "消防手报"
+            ]
+        }
+    },
+    "MQParams": {
+        "address": "ws://172.18.4.112:15674/ws",
+        "login": "admin",
+        "passcode": "admin",
+        "connectType": "exchange",
+        "connectName": "fanout.exchange.front"
+    },
+    "ProjectConfig": {
+        "ProjectName": "粤西综合安防平台",
+        "TestData": true,
+        "DataRefreshTime": 60000,
+        "SysteminfoRefreshTime": 10000
+    }
+}
